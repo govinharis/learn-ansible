@@ -1,0 +1,4 @@
+hosts: all
+    task:
+        ansible.builtin.debug:
+          msg: hello world

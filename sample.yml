@@ -1,4 +1,4 @@
--hosts: all
+- hosts: all
     task:
-      -ansible.builtin.debug:
+      - ansible.builtin.debug:
           msg: hello world
